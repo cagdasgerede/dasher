@@ -7,12 +7,12 @@
 # Fotis Tsamis <ftsamis@gmail.com>, 2009.
 # <>, 2009.
 # Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2013.
+# gianni.antypas <gianni.antypas@gmail.com>,  2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: dasher.HEAD\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=dasher&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-05-05 11:17+0000\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/dasher/issues\n"
+"POT-Creation-Date: 2022-09-06 15:22+0000\n"
 "PO-Revision-Date: 2017-07-14 14:04+0300\n"
 "Last-Translator: Tom Tryfonidis <tomtryf@gnome.org>\n"
 "Language-Team: team@gnome.gr\n"
@@ -26,9 +26,8 @@ msgstr ""
 
 #. Note to translators: This is the name of the dasher program as it appears
 #. in a window title.
-#: Data/dasher.desktop.in.in:3 Data/GUI/dashermaemofullscreen.ui:174
-#: Data/GUI/dashermaemo.ui:7 Data/GUI/dasher.traditional.ui:196
-#: Src/Gtk2/dasher_main.cpp:867
+#: Data/dasher.desktop.in.in:3 Data/GUI/dasher.traditional.ui:196
+#: Src/Gtk2/dasher_main.cpp:736
 msgid "Dasher"
 msgstr "Dasher"
 
@@ -40,200 +39,6 @@ msgstr "Εισαγωγή κειμένου με πρόβλεψη"
 msgid "Enter text without a keyboard"
 msgstr "Εισάγετε κείμενο χωρίς πληκτρολόγιο"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: Data/dasher.desktop.in.in:8
-#| msgid "Dasher"
-msgid "dasher"
-msgstr "dasher"
-
-#: Data/GUI/dashermaemofullscreen.ui:10 Data/GUI/dasher.traditional.ui:17
-msgid "_File"
-msgstr "_Αρχείο"
-
-#: Data/GUI/dashermaemofullscreen.ui:30 Data/GUI/dasher.traditional.ui:71
-msgid "_Edit"
-msgstr "_Επεξεργασία"
-
-#: Data/GUI/dashermaemofullscreen.ui:57 Data/GUI/dasher.traditional.ui:90
-msgid "Copy _All"
-msgstr "Αντιγραφή ό_λων"
-
-#: Data/GUI/dashermaemofullscreen.ui:64
-msgid "_Options"
-msgstr "Επιλ_ογές"
-
-#: Data/GUI/dashermaemofullscreen.ui:77
-msgid "_Edit Font"
-msgstr "Γραμματοσειρά _επεξεργαστή"
-
-#: Data/GUI/dashermaemofullscreen.ui:84
-msgid "_Dasher Font"
-msgstr "Γραμματοσειρά _Dasher"
-
-#: Data/GUI/dashermaemofullscreen.ui:91
-msgid "_Dasher Font Size"
-msgstr "Μέγεθος Γραμματοσειράς _Dasher"
-
-#: Data/GUI/dashermaemofullscreen.ui:98
-msgid "Normal"
-msgstr "Κανονική"
-
-#: Data/GUI/dashermaemofullscreen.ui:107
-msgid "Large"
-msgstr "Μεγάλη"
-
-#: Data/GUI/dashermaemofullscreen.ui:116
-msgid "Very Large"
-msgstr "Πολύ μεγάλη"
-
-#: Data/GUI/dashermaemofullscreen.ui:123
-msgid "_Reset fonts"
-msgstr "Επαναφο_ρά γραμματοσειρών"
-
-#: Data/GUI/dashermaemofullscreen.ui:130 Data/GUI/dasher.traditional.ui:112
-msgid "_Help"
-msgstr "_Βοήθεια"
-
-#: Data/GUI/dashermaemofullscreen.ui:136
-msgid "_About"
-msgstr "Π_ερί"
-
-#: Data/GUI/dashermaemofullscreen.ui:277 Data/GUI/dashermaemofullscreen.ui:441
-#: Data/GUI/dashermaemofullscreen.ui:477 Data/GUI/dashermaemofullscreen.ui:513
-#: Data/GUI/dashermaemofullscreen.ui:549 Data/GUI/dashermaemo.ui:255
-#: Data/GUI/dashermaemo.ui:419 Data/GUI/dashermaemo.ui:455
-#: Data/GUI/dashermaemo.ui:491 Data/GUI/dashermaemo.ui:527
-#: Src/Gtk2/dasher_editor.cpp:809 Src/Gtk2/dasher_editor.cpp:843
-#: Src/Gtk2/dasher_main.cpp:882
-msgid "Select File"
-msgstr "Επιλογή αρχείου"
-
-#: Data/GUI/dashermaemofullscreen.ui:313 Data/GUI/dashermaemofullscreen.ui:377
-#: Data/GUI/dashermaemo.ui:291 Data/GUI/dashermaemo.ui:355
-msgid "Select Font"
-msgstr "Επιλογή γραμματοσειράς"
-
-#: Data/GUI/dashermaemo.preferences.ui:21 Data/GUI/dasher.preferences.ui:34
-msgid "Dasher Preferences"
-msgstr "Προτιμήσεις Dasher"
-
-#: Data/GUI/dashermaemo.preferences.ui:48 Data/GUI/dasher.preferences.ui:58
-msgid "Alphabet Selection"
-msgstr "Επιλογή αλφαβήτου"
-
-#: Data/GUI/dashermaemo.preferences.ui:109
-msgid "Color Scheme"
-msgstr "Σχήμα χρωμάτων"
-
-#: Data/GUI/dashermaemo.preferences.ui:132 Data/GUI/dasher.preferences.ui:846
-msgid "Custom colour scheme:"
-msgstr "Προσαρμοσμένο σχήμα χρωμάτων:"
-
-#: Data/GUI/dashermaemo.preferences.ui:180
-msgid "Alphabet"
-msgstr "Αλφάβητο"
-
-#: Data/GUI/dashermaemo.preferences.ui:200 Data/GUI/dasher.preferences.ui:615
-msgid "Speed"
-msgstr "Ταχύτητα"
-
-#: Data/GUI/dashermaemo.preferences.ui:224 Data/GUI/dasher.preferences.ui:645
-msgid "Adapt speed automatically"
-msgstr "Αυτόματη προσαρμογή ταχύτητας"
-
-#. The way in which you would like to control dasher, e.g., using buttons for up/down, buttons for select, etc.
-#: Data/GUI/dashermaemo.preferences.ui:261
-msgid "Control"
-msgstr "Έλεγχος"
-
-#: Data/GUI/dashermaemo.preferences.ui:285
-msgid "Display Size"
-msgstr "Μέγεθος οθόνης"
-
-#: Data/GUI/dashermaemo.preferences.ui:307
-msgid "Enlarge input window"
-msgstr "Μεγέθυνση παραθύρου εισαγωγής"
-
-#: Data/GUI/dashermaemo.preferences.ui:338
-msgid "Orientation"
-msgstr "Προσανατολισμός"
-
-#. The default display orientation for the selected alphabet, i.e., left to right for English, right to left for Arabic, etc.
-#: Data/GUI/dashermaemo.preferences.ui:360 Data/GUI/dasher.preferences.ui:344
-msgid "Alphabet Default"
-msgstr "Προεπιλογή αλφαβήτου"
-
-#: Data/GUI/dashermaemo.preferences.ui:375
-msgid "Custom"
-msgstr "Προσαρμοσμένη"
-
-#: Data/GUI/dashermaemo.preferences.ui:399
-msgid "Left to Right"
-msgstr "Από αριστερά προς δεξιά"
-
-#: Data/GUI/dashermaemo.preferences.ui:414
-msgid "Right to Left"
-msgstr "Από δεξιά προς αριστερά"
-
-#: Data/GUI/dashermaemo.preferences.ui:431
-msgid "Top to Bottom"
-msgstr "Από πάνω προς τα κάτω"
-
-#: Data/GUI/dashermaemo.preferences.ui:448
-msgid "Bottom to Top"
-msgstr "Από κάτω προς τα πάνω"
-
-#: Data/GUI/dashermaemo.preferences.ui:487
-msgid "View"
-msgstr "Προβολή"
-
-#: Data/GUI/dashermaemo.preferences.ui:506 Data/GUI/dasher.preferences.ui:107
-msgid "Language Model"
-msgstr "Μοντέλο γλώσσας"
-
-#. PPM = Prediction by Partial Match, a statistical language model.
-#: Data/GUI/dashermaemo.preferences.ui:530 Data/GUI/dasher.preferences.ui:128
-msgid "Standard letter-based PPM"
-msgstr "Κλασικό PPM βάσει γραμμάτων"
-
-#: Data/GUI/dashermaemo.preferences.ui:544 Data/GUI/dasher.preferences.ui:142
-msgid "Word-based model"
-msgstr "Μοντέλο βάσει λέξεων"
-
-#. PPM = Prediction by Partial Match, a statistical language model.
-#: Data/GUI/dashermaemo.preferences.ui:560 Data/GUI/dasher.preferences.ui:158
-msgid "Mixture model (PPM/dictionary)"
-msgstr "Μικτό μοντέλο (PPM/λεξικό)"
-
-#: Data/GUI/dashermaemo.preferences.ui:576 Data/GUI/dasher.preferences.ui:174
-msgid "Japanese"
-msgstr "Ιαπωνικά"
-
-#: Data/GUI/dashermaemo.preferences.ui:609 Data/GUI/dasher.preferences.ui:205
-msgid "Adaptation"
-msgstr "Προσαρμογή"
-
-#: Data/GUI/dashermaemo.preferences.ui:634 Data/GUI/dasher.preferences.ui:226
-msgid "Language model adapts as you write."
-msgstr "Το μοντέλο γλώσσας προσαρμόζεται ενώ γράφετε."
-
-#: Data/GUI/dashermaemo.preferences.ui:666 Data/GUI/dasher.preferences.ui:257
-msgid "Smoothing"
-msgstr "Εξομάλυνση"
-
-#: Data/GUI/dashermaemo.preferences.ui:717
-msgid "Prediction"
-msgstr "Πρόβλεψη"
-
-#. Abbreviation for Preferences
-#: Data/GUI/dashermaemo.ui:66
-msgid "P"
-msgstr "P"
-
-#: Data/GUI/dashermaemo.ui:563 Data/GUI/dasher.traditional.ui:392
-msgid "Please Wait…"
-msgstr "Παρακαλώ περιμένετε…"
-
 #: Data/GUI/dasher.preferences.ui:26
 msgid "Centre circle"
 msgstr "Κύκλος στο κέντρο"
@@ -241,6 +46,48 @@ msgstr "Κύκλος στο κέντρο"
 #: Data/GUI/dasher.preferences.ui:29
 msgid "Two box"
 msgstr "Δύο τετράγωνα"
+
+#: Data/GUI/dasher.preferences.ui:34
+msgid "Dasher Preferences"
+msgstr "Προτιμήσεις Dasher"
+
+#: Data/GUI/dasher.preferences.ui:58
+msgid "Alphabet Selection"
+msgstr "Επιλογή αλφαβήτου"
+
+#: Data/GUI/dasher.preferences.ui:107
+msgid "Language Model"
+msgstr "Μοντέλο γλώσσας"
+
+#. PPM = Prediction by Partial Match, a statistical language model.
+#: Data/GUI/dasher.preferences.ui:128
+msgid "Standard letter-based PPM"
+msgstr "Κλασικό PPM βάσει γραμμάτων"
+
+#: Data/GUI/dasher.preferences.ui:142
+msgid "Word-based model"
+msgstr "Μοντέλο βάσει λέξεων"
+
+#. PPM = Prediction by Partial Match, a statistical language model.
+#: Data/GUI/dasher.preferences.ui:158
+msgid "Mixture model (PPM/dictionary)"
+msgstr "Μικτό μοντέλο (PPM/λεξικό)"
+
+#: Data/GUI/dasher.preferences.ui:174
+msgid "Japanese"
+msgstr "Ιαπωνικά"
+
+#: Data/GUI/dasher.preferences.ui:205
+msgid "Adaptation"
+msgstr "Προσαρμογή"
+
+#: Data/GUI/dasher.preferences.ui:226
+msgid "Language model adapts as you write."
+msgstr "Το μοντέλο γλώσσας προσαρμόζεται ενώ γράφετε."
+
+#: Data/GUI/dasher.preferences.ui:257
+msgid "Smoothing"
+msgstr "Εξομάλυνση"
 
 #. Line wrapping not necessary, but looks better for English
 #: Data/GUI/dasher.preferences.ui:280
@@ -257,6 +104,11 @@ msgstr ""
 #: Data/GUI/dasher.preferences.ui:322
 msgid "Direction"
 msgstr "Κατεύθυνση"
+
+#. The default display orientation for the selected alphabet, i.e., left to right for English, right to left for Arabic, etc.
+#: Data/GUI/dasher.preferences.ui:344
+msgid "Alphabet Default"
+msgstr "Προεπιλογή αλφαβήτου"
 
 #. This means that you always want to write left-to-right regardless of the normal direction for the alphabet you are using
 #: Data/GUI/dasher.preferences.ui:359
@@ -292,6 +144,14 @@ msgstr "Επιλογές"
 msgid "Input Device"
 msgstr "Συσκευή εισόδου"
 
+#: Data/GUI/dasher.preferences.ui:615
+msgid "Speed"
+msgstr "Ταχύτητα"
+
+#: Data/GUI/dasher.preferences.ui:645
+msgid "Adapt speed automatically"
+msgstr "Αυτόματη προσαρμογή ταχύτητας"
+
 #: Data/GUI/dasher.preferences.ui:677
 msgid "Starting and Stopping"
 msgstr "Εκκίνηση και διακοπή"
@@ -320,6 +180,10 @@ msgstr "Έ_λεγχος"
 #: Data/GUI/dasher.preferences.ui:825
 msgid "Colour Scheme"
 msgstr "Σχήμα χρωμάτων"
+
+#: Data/GUI/dasher.preferences.ui:846
+msgid "Custom colour scheme:"
+msgstr "Προσαρμοσμένο σχήμα χρωμάτων:"
 
 #: Data/GUI/dasher.preferences.ui:898
 msgid "Appearance Options"
@@ -397,37 +261,45 @@ msgstr "Εκφώνηση όλων στη διακοπή"
 msgid "Speak words as you write"
 msgstr "Εκφώνηση λέξεων καθώς γράφετε"
 
-#: Data/GUI/dasher.preferences.ui:1297
+#: Data/GUI/dasher.preferences.ui:1283
+msgid "Confirm unsaved files"
+msgstr "Επιβεβαίωση μη αποθηκευμένων αρχείων"
+
+#: Data/GUI/dasher.preferences.ui:1314
 msgid "Editor Font"
 msgstr "Γραμματοσειρά επεξεργαστή"
 
-#: Data/GUI/dasher.preferences.ui:1315
+#: Data/GUI/dasher.preferences.ui:1332
 msgid "Select Editor Font"
 msgstr "Επιλογή γραμματοσειράς επεξεργαστή"
 
-#: Data/GUI/dasher.preferences.ui:1343
+#: Data/GUI/dasher.preferences.ui:1360
 msgid "Application Style"
 msgstr "Στυλ εφαρμογής"
 
-#: Data/GUI/dasher.preferences.ui:1365
+#: Data/GUI/dasher.preferences.ui:1382
 msgid "Stand-alone"
 msgstr "Αυτόνομη"
 
-#: Data/GUI/dasher.preferences.ui:1380
+#: Data/GUI/dasher.preferences.ui:1397
 msgid "Composition"
 msgstr "Σύνταξη"
 
-#: Data/GUI/dasher.preferences.ui:1397
+#: Data/GUI/dasher.preferences.ui:1414
 msgid "Direct entry"
 msgstr "Απευθείας εισαγωγή"
 
-#: Data/GUI/dasher.preferences.ui:1414
+#: Data/GUI/dasher.preferences.ui:1431
 msgid "Full Screen"
 msgstr "Πλήρης οθόνη"
 
-#: Data/GUI/dasher.preferences.ui:1454
+#: Data/GUI/dasher.preferences.ui:1471
 msgid "A_pplication"
 msgstr "Ε_φαρμογή"
+
+#: Data/GUI/dasher.traditional.ui:17
+msgid "_File"
+msgstr "_Αρχείο"
 
 #: Data/GUI/dasher.traditional.ui:23
 msgid "New file"
@@ -453,9 +325,13 @@ msgstr "Π_ροσθήκη σε αρχείο…"
 msgid "_Import Training Text…"
 msgstr "Ε_ισαγωγή κειμένου εκπαίδευσης…"
 
-#: Data/GUI/dasher.traditional.ui:65 Src/Gtk2/dasher_main.cpp:960
+#: Data/GUI/dasher.traditional.ui:65 Src/Gtk2/dasher_main.cpp:835
 msgid "Quit"
 msgstr "Έξοδος"
+
+#: Data/GUI/dasher.traditional.ui:71
+msgid "_Edit"
+msgstr "_Επεξεργασία"
 
 #: Data/GUI/dasher.traditional.ui:77
 msgid "Cut"
@@ -464,6 +340,10 @@ msgstr "Αποκοπή"
 #: Data/GUI/dasher.traditional.ui:84
 msgid "Copy"
 msgstr "Αντιγραφή"
+
+#: Data/GUI/dasher.traditional.ui:90
+msgid "Copy _All"
+msgstr "Αντιγραφή ό_λων"
 
 #: Data/GUI/dasher.traditional.ui:97
 msgid "Paste"
@@ -476,6 +356,10 @@ msgstr "_Προτιμήσεις…"
 #: Data/GUI/dasher.traditional.ui:105
 msgid "Preferences"
 msgstr "Προτιμήσεις"
+
+#: Data/GUI/dasher.traditional.ui:112
+msgid "_Help"
+msgstr "_Βοήθεια"
 
 #: Data/GUI/dasher.traditional.ui:118
 msgid "_Contents…"
@@ -490,7 +374,7 @@ msgid "_About…"
 msgstr "Π_ερί…"
 
 #: Data/GUI/dasher.traditional.ui:134
-#: Src/DasherCore/DasherInterfaceBase.cpp:795
+#: Src/DasherCore/DasherInterfaceBase.cpp:797
 msgid "Direct Mode"
 msgstr "Απευθείας"
 
@@ -509,6 +393,10 @@ msgstr "Ταχύτητα:"
 #: Data/GUI/dasher.traditional.ui:342
 msgid "Alphabet:"
 msgstr "Αλφάβητο:"
+
+#: Data/GUI/dasher.traditional.ui:392
+msgid "Please Wait…"
+msgstr "Παρακαλώ περιμένετε…"
 
 #. think XML_LChar==char, depends on preprocessor variables...
 #. /TRANSLATORS: the first string is the error message from the XML Parser;
@@ -621,7 +509,7 @@ msgstr "Πυξίδας"
 
 #. /TRANSLATORS: %s is the name of the alphabet; the string "GameTextFile"
 #. / refers to a setting name in gsettings or equivalent, and should not be translated.
-#: Src/DasherCore/DasherInterfaceBase.cpp:314
+#: Src/DasherCore/DasherInterfaceBase.cpp:316
 #, c-format
 msgid ""
 "Could not find game sentences file for %s - check alphabet definition, or "
@@ -630,12 +518,12 @@ msgstr ""
 "Αδύνατη η εύρεση αρχείου προτάσεων του παιχνιδιού για %s - ελέγξετε τον "
 "αλφαβητικό ορισμό, ή αντικαταστήστε με τη ρύθμιση GameTextFile"
 
-#: Src/DasherCore/DasherInterfaceBase.cpp:784
+#: Src/DasherCore/DasherInterfaceBase.cpp:786
 msgid "Normal Control"
 msgstr "Κανονική"
 
 #. TODO: specialist factory for button mode
-#: Src/DasherCore/DasherInterfaceBase.cpp:794
+#: Src/DasherCore/DasherInterfaceBase.cpp:796
 msgid "Menu Mode"
 msgstr "Μενού"
 
@@ -767,10 +655,7 @@ msgstr ""
 "Προειδοποίηση: στο αρχείο εκπαίδευσης, το σχόλιο «<%s>» ακολουθείται από "
 "άλλο σχόλιο και θα αγνοηθεί"
 
-#. /TRANSLATORS: first string will be the filename; after the end of the string,
-#. / some number of output (e.g. Chinese) characters will be appended,
-#. / the number of which is the integer here
-#: Src/DasherCore/MandarinAlphMgr.cpp:244
+#: Src/DasherCore/MandarinAlphMgr.cpp:247
 #, c-format
 msgid ""
 "In file %s, the following %i symbol appeared without annotations saying how "
@@ -785,6 +670,18 @@ msgstr[0] ""
 "πώς θα πρέπει να εισαχθεί, αλλά μπορεί να εισαχθεί με πολλούς τρόπους. Το "
 "Dasher δεν θα μπορεί να μάθει πώς θέλετε να εισάγετε αυτό το σύμβολο:"
 msgstr[1] ""
+"Στο αρχείο %s, τα σύμβολα %i που ακολουθούν εμφανίστηκαν χωρίς σχόλια που "
+"λένε πώς θα πρέπει να εισαχθούν, αλλά καθένα μπορεί να εισαχθεί με πολλούς "
+"τρόπους. Το Dasher δεν θα μπορεί να μάθει πώς θέλετε να εισάγετε αυτά τα "
+"σύμβολα:"
+
+#: Src/DasherCore/MandarinAlphMgr.cpp:251
+#, c-format
+msgid ""
+"In file %s, the following %i symbols appeared without annotations saying how "
+"they should be entered, but each can be entered in several ways. Dasher will "
+"not be able to learn how you want to enter these symbols:"
+msgstr ""
 "Στο αρχείο %s, τα σύμβολα %i που ακολουθούν εμφανίστηκαν χωρίς σχόλια που "
 "λένε πώς θα πρέπει να εισαχθούν, αλλά καθένα μπορεί να εισαχθεί με πολλούς "
 "τρόπους. Το Dasher δεν θα μπορεί να μάθει πώς θέλετε να εισάγετε αυτά τα "
@@ -1119,31 +1016,46 @@ msgstr "Ακέραιες παράμετροι"
 msgid "String parameters"
 msgstr "Αλφαριθμητικές παράμετροι"
 
-#: Src/Gtk2/dasher_editor.cpp:812 Src/Gtk2/dasher_main.cpp:550
-#: Src/Gtk2/dasher_main.cpp:885
+#. Note to translators: This is the version keyword showing for the command line option "--version"
+#: Src/Gtk2/DasherAppSettings.cpp:161
+msgid "Version"
+msgstr "Έκδοση"
+
+#. Note to translators: This is the license keyword showing for the command line option "--version"
+#: Src/Gtk2/DasherAppSettings.cpp:163
+msgid "License"
+msgstr "Άδεια"
+
+#: Src/Gtk2/dasher_editor.cpp:796 Src/Gtk2/dasher_editor.cpp:830
+#: Src/Gtk2/dasher_main.cpp:751
+msgid "Select File"
+msgstr "Επιλογή αρχείου"
+
+#: Src/Gtk2/dasher_editor.cpp:799 Src/Gtk2/dasher_main.cpp:448
+#: Src/Gtk2/dasher_main.cpp:754
 msgid "_Open"
 msgstr "Άν_οιγμα"
 
-#: Src/Gtk2/dasher_editor.cpp:814 Src/Gtk2/dasher_editor.cpp:848
-#: Src/Gtk2/dasher_main.cpp:549 Src/Gtk2/dasher_main.cpp:886
+#: Src/Gtk2/dasher_editor.cpp:801 Src/Gtk2/dasher_editor.cpp:835
+#: Src/Gtk2/dasher_main.cpp:447 Src/Gtk2/dasher_main.cpp:755
 msgid "_Cancel"
 msgstr "Άκ_υρο"
 
-#: Src/Gtk2/dasher_editor.cpp:846
+#: Src/Gtk2/dasher_editor.cpp:833
 msgid "_Save"
 msgstr "_Αποθήκευση"
 
 #. Note to translators: This message will be output for command line errors when the "=" in --options=foo is missing.
-#: Src/Gtk2/dasher_main.cpp:231
+#: Src/Gtk2/dasher_main.cpp:225
 msgid "option setting is missing \"=\"."
 msgstr "λείπει το «=» από την επιλογή."
 
 #. Note to translators: This string will be output when --options= specifies an unknown option.
-#: Src/Gtk2/dasher_main.cpp:247
+#: Src/Gtk2/dasher_main.cpp:241
 msgid "Invalid option string specified"
 msgstr "Άγνωστο αλφαριθμητικό γνωρίσματος"
 
-#: Src/Gtk2/dasher_main.cpp:607
+#: Src/Gtk2/dasher_main.cpp:505
 msgid ""
 "Welcome to Dasher Game Mode! Game Mode is a fun way to practice entering "
 "text in Dasher. Please select a training text to play with:"
@@ -1152,19 +1064,19 @@ msgstr ""
 "ένας κεφάτος τρόπος να εξασκήσετε την εισαγωγή κειμένου στο Dasher. "
 "Παρακαλούμε επιλέξτε ένα κείμενο εκπαίδευσης για να παίξετε:"
 
-#: Src/Gtk2/dasher_main.cpp:609
+#: Src/Gtk2/dasher_main.cpp:507
 msgid "Use Default"
 msgstr "Χρήση προεπιλογής"
 
-#: Src/Gtk2/dasher_main.cpp:610
+#: Src/Gtk2/dasher_main.cpp:508
 msgid "Choose File..."
 msgstr "Επιλογή αρχείου..."
 
-#: Src/Gtk2/dasher_main.cpp:611
+#: Src/Gtk2/dasher_main.cpp:509
 msgid "Cancel"
 msgstr "Άκυρο"
 
-#: Src/Gtk2/dasher_main.cpp:634
+#: Src/Gtk2/dasher_main.cpp:532
 msgid ""
 "Are you sure you wish to turn off game mode? All unsaved changes will be "
 "lost."
@@ -1172,15 +1084,15 @@ msgstr ""
 "Είσαστε βέβαιοι ότι θέλετε να κλείσετε την κατάσταση παιχνιδιού; Όλες οι "
 "αναποθήκευτες αλλαγές θα χαθούν."
 
-#: Src/Gtk2/dasher_main.cpp:636
+#: Src/Gtk2/dasher_main.cpp:534
 msgid "No"
 msgstr "Όχι"
 
-#: Src/Gtk2/dasher_main.cpp:637
+#: Src/Gtk2/dasher_main.cpp:535
 msgid "Yes"
 msgstr "Ναι"
 
-#: Src/Gtk2/dasher_main.cpp:922
+#: Src/Gtk2/dasher_main.cpp:797
 #, c-format
 msgid ""
 "Do you want to save your changes to %s?\n"
@@ -1191,7 +1103,7 @@ msgstr ""
 "\n"
 "Οι αλλαγές σας θα χαθούν αν δεν τις αποθηκεύσετε."
 
-#: Src/Gtk2/dasher_main.cpp:929
+#: Src/Gtk2/dasher_main.cpp:804
 msgid ""
 "Do you want to save your changes?\n"
 "\n"
@@ -1201,31 +1113,31 @@ msgstr ""
 "\n"
 "Οι αλλαγές σας θα χαθούν αν δεν τις αποθηκεύσετε."
 
-#: Src/Gtk2/dasher_main.cpp:935
+#: Src/Gtk2/dasher_main.cpp:810
 msgid "Quit without saving"
 msgstr "Έξοδος χωρίς αποθήκευση"
 
-#: Src/Gtk2/dasher_main.cpp:936 Src/Gtk2/dasher_main.cpp:959
+#: Src/Gtk2/dasher_main.cpp:811 Src/Gtk2/dasher_main.cpp:834
 msgid "Don't quit"
 msgstr "Να μην γίνει έξοδος"
 
-#: Src/Gtk2/dasher_main.cpp:937
+#: Src/Gtk2/dasher_main.cpp:812
 msgid "Save and quit"
 msgstr "Αποθήκευση και έξοδος"
 
-#: Src/Gtk2/dasher_main.cpp:956
+#: Src/Gtk2/dasher_main.cpp:831
 msgid "Are you sure you wish to quit?"
 msgstr "Σίγουρα επιθυμείτε να εξέλθετε;"
 
-#: Src/Gtk2/dasher_main.cpp:998
+#: Src/Gtk2/dasher_main.cpp:877
 msgid "Unable to open help file"
 msgstr "Αδύνατο το άνοιγμα του αρχείου βοήθειας"
 
-#: Src/Gtk2/dasher_main.cpp:1050
+#: Src/Gtk2/dasher_main.cpp:928
 msgid "Dasher is a predictive text entry application"
 msgstr "Το Dasher είναι μια εφαρμογή εισαγωγής κειμένου με πρόβλεψη"
 
-#: Src/Gtk2/dasher_main.cpp:1055
+#: Src/Gtk2/dasher_main.cpp:933
 msgid "translator-credits"
 msgstr ""
 "Ελληνική μεταφραστική ομάδα GNOME\n"
@@ -1261,7 +1173,7 @@ msgstr "Εικονοστοιχεία του άξονα Y"
 msgid "One Dimensional Mouse Input"
 msgstr "Μονοδιάστατη είσοδος ποντικιού"
 
-#: Src/Gtk2/Preferences.cpp:437
+#: Src/Gtk2/Preferences.cpp:402
 msgid "Action"
 msgstr "Ενέργεια"
 
@@ -1270,29 +1182,119 @@ msgstr "Ενέργεια"
 #. {"textentry", 'o', 0, G_OPTION_ARG_NONE, &textentry, "Onscreen text entry mode", NULL},
 #. {"pipe", 's', 0, G_OPTION_ARG_NONE, &stdoutpipe, "Pipe text to stdout", NULL},
 #. Note to translators: This is the help string for "--appstyle". The four options in brackets MUST either NOT be translated or at least it MUST be clear that they must be used in english. Otherwise a user running a non-english system will receive an error message when using the translated one instead of the english one and has no chance to find out the correct option.
-#: Src/main.cc:161
+#: Src/main.cc:133
 msgid "Application style (traditional, direct, compose or fullscreen)"
 msgstr "Στυλ εφαρμογής (παραδοσιακό, άμεσο, σύνθετο ή πλήρους οθόνης)"
 
 #. Note to translators: This is the help string for "--options"
-#: Src/main.cc:163
+#: Src/main.cc:135
 msgid "Override stored options"
 msgstr "Υποκατάσταση αποθηκευμένων επιλογών"
 
-#: Src/main.cc:164
+#: Src/main.cc:136
 msgid "XML configuration file name"
 msgstr "Όνομα XML αρχείου παραμετροποίησης"
 
 #. Note to translators: This is the help string for "--help-options"
-#: Src/main.cc:166
+#: Src/main.cc:138
 msgid "Describe \"--options\"."
 msgstr "Περιγραφή του «--options»."
 
+#. Note to translators: This is the help string for "--version"
+#: Src/main.cc:140
+msgid "Show the version details."
+msgstr "Εμφάνιση των λεπτομερειών έκδοσης."
+
 #. parse command line options
 #. Note to translators: This is the "--help" description of dasher.
-#: Src/main.cc:172
+#: Src/main.cc:146
 msgid "- A text input application honouring accessibility"
 msgstr "- Μια εφαρμογή εισαγωγής κειμένου με στόχο την προσιτότητα"
+
+#. Note to translators: This is the help string for unrecognized command line options. Do not translate 'dasher --help' part.
+#: Src/main.cc:153
+#, fuzzy
+#| msgid "unknown option, use \"--help-options\" for more information."
+msgid "Try 'dasher --help' for more information."
+msgstr ""
+"άγνωστη επιλογή, χρησιμοποιήστε το «--help-options» για περισσότερες "
+"πληροφορίες."
+
+#~| msgid "Dasher"
+#~ msgid "dasher"
+#~ msgstr "dasher"
+
+#~ msgid "_Options"
+#~ msgstr "Επιλ_ογές"
+
+#~ msgid "_Edit Font"
+#~ msgstr "Γραμματοσειρά _επεξεργαστή"
+
+#~ msgid "_Dasher Font"
+#~ msgstr "Γραμματοσειρά _Dasher"
+
+#~ msgid "_Dasher Font Size"
+#~ msgstr "Μέγεθος Γραμματοσειράς _Dasher"
+
+#~ msgid "Normal"
+#~ msgstr "Κανονική"
+
+#~ msgid "Large"
+#~ msgstr "Μεγάλη"
+
+#~ msgid "Very Large"
+#~ msgstr "Πολύ μεγάλη"
+
+#~ msgid "_Reset fonts"
+#~ msgstr "Επαναφο_ρά γραμματοσειρών"
+
+#~ msgid "_About"
+#~ msgstr "Π_ερί"
+
+#~ msgid "Select Font"
+#~ msgstr "Επιλογή γραμματοσειράς"
+
+#~ msgid "Color Scheme"
+#~ msgstr "Σχήμα χρωμάτων"
+
+#~ msgid "Alphabet"
+#~ msgstr "Αλφάβητο"
+
+#~ msgid "Control"
+#~ msgstr "Έλεγχος"
+
+#~ msgid "Display Size"
+#~ msgstr "Μέγεθος οθόνης"
+
+#~ msgid "Enlarge input window"
+#~ msgstr "Μεγέθυνση παραθύρου εισαγωγής"
+
+#~ msgid "Orientation"
+#~ msgstr "Προσανατολισμός"
+
+#~ msgid "Custom"
+#~ msgstr "Προσαρμοσμένη"
+
+#~ msgid "Left to Right"
+#~ msgstr "Από αριστερά προς δεξιά"
+
+#~ msgid "Right to Left"
+#~ msgstr "Από δεξιά προς αριστερά"
+
+#~ msgid "Top to Bottom"
+#~ msgstr "Από πάνω προς τα κάτω"
+
+#~ msgid "Bottom to Top"
+#~ msgstr "Από κάτω προς τα πάνω"
+
+#~ msgid "View"
+#~ msgstr "Προβολή"
+
+#~ msgid "Prediction"
+#~ msgstr "Πρόβλεψη"
+
+#~ msgid "P"
+#~ msgstr "P"
 
 #~ msgid "Include Clipboard commands"
 #~ msgstr "Συμπερίληψη εντολών προχείρου"
@@ -1314,16 +1316,6 @@ msgstr "- Μια εφαρμογή εισαγωγής κειμένου με στ�
 
 #~ msgid "Done"
 #~ msgstr "Έτοιμο"
-
-#~ msgid ""
-#~ "In file %s, the following %i symbols appeared without annotations saying "
-#~ "how they should be entered, but each can be entered in several ways. "
-#~ "Dasher will not be able to learn how you want to enter these symbols:"
-#~ msgstr ""
-#~ "Στο αρχείο %s, τα σύμβολα %i που ακολουθούν εμφανίστηκαν χωρίς σχόλια που "
-#~ "λένε πώς θα πρέπει να εισαχθούν, αλλά καθένα μπορεί να εισαχθεί με "
-#~ "πολλούς τρόπους. Το Dasher δεν θα μπορεί να μάθει πώς θέλετε να εισάγετε "
-#~ "αυτά τα σύμβολα:"
 
 #~ msgid "Don't save"
 #~ msgstr "Όχι αποθήκευση"
