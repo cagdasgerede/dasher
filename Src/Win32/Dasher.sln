@@ -17,11 +17,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DasherControl", "DasherCont
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DasherCore", "..\DasherCore\DasherCore.vcxproj", "{192C1E5C-2D1E-4AA3-91C3-FF2D7ABD67F8}"
 EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Installer", "..\Installer\Installer.wixproj", "{BBE9E817-E2C5-4081-9612-0738E27CF55A}"
-	ProjectSection(ProjectDependencies) = postProject
-		{752501D3-5B04-4F3C-A141-DE426E354D23} = {752501D3-5B04-4F3C-A141-DE426E354D23}
-	EndProjectSection
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Manual", "..\..\Data\Help\Manual.vcxproj", "{C356A954-2E47-4F1E-AE4A-E22B598514F9}"
 EndProject
 Global
@@ -46,10 +41,6 @@ Global
 		{192C1E5C-2D1E-4AA3-91C3-FF2D7ABD67F8}.Debug|Win32.Build.0 = Debug|Win32
 		{192C1E5C-2D1E-4AA3-91C3-FF2D7ABD67F8}.Release|Win32.ActiveCfg = Release|Win32
 		{192C1E5C-2D1E-4AA3-91C3-FF2D7ABD67F8}.Release|Win32.Build.0 = Release|Win32
-		{BBE9E817-E2C5-4081-9612-0738E27CF55A}.Debug|Win32.ActiveCfg = Debug|x86
-		{BBE9E817-E2C5-4081-9612-0738E27CF55A}.Debug|Win32.Build.0 = Debug|x86
-		{BBE9E817-E2C5-4081-9612-0738E27CF55A}.Release|Win32.ActiveCfg = Release|x86
-		{BBE9E817-E2C5-4081-9612-0738E27CF55A}.Release|Win32.Build.0 = Release|x86
 		{C356A954-2E47-4F1E-AE4A-E22B598514F9}.Debug|Win32.ActiveCfg = Debug|Win32
 		{C356A954-2E47-4F1E-AE4A-E22B598514F9}.Release|Win32.ActiveCfg = Release|Win32
 		{C356A954-2E47-4F1E-AE4A-E22B598514F9}.Release|Win32.Build.0 = Release|Win32

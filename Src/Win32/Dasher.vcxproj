@@ -14,18 +14,18 @@
     <ProjectName>Dasher</ProjectName>
     <ProjectGuid>{752501D3-5B04-4F3C-A141-DE426E354D23}</ProjectGuid>
     <RootNamespace>Dasher</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -68,8 +68,8 @@
     </Midl>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>WinCommon;Common;$(SPEECHSDK)\Include;$(TABLETSDK)\Include;C:\Program Files\HTML Help Workshop\include;$(EXPAT)\Source\lib;$(MICROSOFTSDK5)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;WIN32_SPEECH;_DEBUG;DEBUG;_WINDOWS;_UNICODE;_STATIC;_WIN32_WINNT=0x0501;_WIN32_IE=0x0501;ISOLATION_AWARE_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>WinCommon;Common;$(SPEECHSDK)\Include;$(TABLETSDK)\Include;C:\vcpkg\installed\x86-windows-static\include;C:\Program Files\HTML Help Workshop\include;$(MICROSOFTSDK5)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;WIN32_SPEECH;_DEBUG;DEBUG;_WINDOWS;_UNICODE;_STATIC;XML_STATIC;_WIN32_WINNT=0x0501;_WIN32_IE=0x0501;ISOLATION_AWARE_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader />
@@ -89,7 +89,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>odbc32.lib;odbccp32.lib;comctl32.lib;WS2_32.lib;Htmlhelp.lib;Uxtheme.lib;$(EXPAT)\Bin\libexpat.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;comctl32.lib;WS2_32.lib;Htmlhelp.lib;Uxtheme.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>.\Target/Debug/Dasher.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>$(SPEECHSDK)\Lib\i386;C:\Program Files\HTML Help Workshop\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -111,8 +111,8 @@
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
-      <AdditionalIncludeDirectories>WinCommon;Common;$(SPEECHSDK)\Include;$(TABLETSDK)\Include;$(EXPAT)\Source\lib;$(MICROSOFTSDK5)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;WIN32_SPEECH;_WINDOWS;_UNICODE;_STATIC;_WIN32_WINNT=0x0501;_WIN32_IE=0x0501;ISOLATION_AWARE_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>WinCommon;Common;$(SPEECHSDK)\Include;$(TABLETSDK)\Include;C:\vcpkg\installed\x86-windows-static\include;$(MICROSOFTSDK5)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;WIN32_SPEECH;_WINDOWS;_UNICODE;_STATIC;XML_STATIC;_WIN32_WINNT=0x0501;_WIN32_IE=0x0501;ISOLATION_AWARE_ENABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -135,7 +135,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>odbc32.lib;odbccp32.lib;comctl32.lib;WS2_32.lib;Htmlhelp.lib;Uxtheme.lib;$(EXPAT)\Bin\libexpat.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;comctl32.lib;WS2_32.lib;Htmlhelp.lib;Uxtheme.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>.\Target/Release/Dasher.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>$(SPEECHSDK)\Lib\i386;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
